@@ -1,5 +1,5 @@
 package:
-  name: vtk
+  name: vtk-opengl
   version: 7.1.1
 
 source:
@@ -9,7 +9,7 @@ source:
   fn:  VTK-7.1.1.tar.gz
 
 build:
-  number: 3                                   [linux,osx]
+  number: 1                                   [linux,osx]
   has_prefix_files:                           [win]
     - Lib/site-packages/vtk/__init__.py       [win]
 
