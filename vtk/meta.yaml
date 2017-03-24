@@ -1,6 +1,6 @@
 package:
-  name: vtk-opengl
-  version: 7.1.1
+  name: vtk
+  version: "7.1.1.opengl"
 
 source:
   #git_url: https://github.com/Kitware/VTK.git
